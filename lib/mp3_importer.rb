@@ -11,8 +11,8 @@ class MP3Importer
     file.find_all {|x|x.match(/\.mp3/)}
   end 
   
-  def import(f) 
-    Song.new_by_filename(f)
+  def import 
+    Song.new_by_filename(file.find_all {|x|x.match(/\.mp3/)})
  #   binding.pry
   end 
  
