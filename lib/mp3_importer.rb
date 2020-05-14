@@ -12,7 +12,7 @@ class MP3Importer
 #    '*.mp3'
   end 
   
- 
+ files.split(/.mp3/)
   
   
 end
