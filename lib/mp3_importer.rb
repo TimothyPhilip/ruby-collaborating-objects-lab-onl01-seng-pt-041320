@@ -13,7 +13,7 @@ class MP3Importer
 #    '*.mp3'
   end 
   
-  
+  Dir.entries(@path.scan(/\./))
   
   
 end
