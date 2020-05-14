@@ -8,7 +8,6 @@ class MP3Importer
   
   def files
     files = Dir.entries(@path)
-    files.scan(/.mp3/)
  #   binding.pry
 #    '*.mp3'
   end 
