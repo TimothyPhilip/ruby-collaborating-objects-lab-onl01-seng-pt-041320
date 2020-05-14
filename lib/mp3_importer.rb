@@ -9,7 +9,7 @@ class MP3Importer
   def files
     files = Dir.entries(@path)
     files.find_all {|x|x.match(/\.mp3/)}
-    binding.pry
+#    binding.pry
 #    '*.mp3'
   end 
   
