@@ -11,6 +11,9 @@ class MP3Importer
     files.find_all {|x|x.match(/\.mp3/)}
   end 
   
+  def import 
+    binding.pry
+  end 
  
   
   
