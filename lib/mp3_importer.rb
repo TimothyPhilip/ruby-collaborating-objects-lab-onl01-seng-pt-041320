@@ -7,8 +7,8 @@ class MP3Importer
   end
   
   def files
-    files = Dir.entries(@path)
-    files.find_all {|x|x.match(/\.mp3/)}
+    file = Dir.entries(@path)
+    file.find_all {|x|x.match(/\.mp3/)}
   end 
   
   def import 
