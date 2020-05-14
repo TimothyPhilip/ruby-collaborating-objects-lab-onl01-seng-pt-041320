@@ -7,13 +7,12 @@ class MP3Importer
   end
   
   def files
-    
-    Dir.entries(@path)
+    files = Dir.entries(@path)
     binding.pry
 #    '*.mp3'
   end 
   
-  Dir.entries(@path.scan(/\./))
+ 
   
   
 end
